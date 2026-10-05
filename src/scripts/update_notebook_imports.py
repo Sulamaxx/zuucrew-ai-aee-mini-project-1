@@ -1,5 +1,10 @@
 """Script to update import paths in all notebooks after reorganization."""
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import json
 from pathlib import Path
 
